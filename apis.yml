@@ -1,7 +1,24 @@
 aid: remedy-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remedy-robotics.png
 name: Remedy Robotics
-description: Remedy Robotics is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Remedy Robotics is a medical robotics company developing what it describes
+  as the world's first endovascular robot capable of performing entire cardiovascular
+  and stroke procedures under onsite, remote, or autonomous control. Its stated mission
+  is to expand timely access to life-saving vascular interventions for patients who
+  cannot reach specialized stroke and cardiac care in time. Remedy Robotics is a
+  portfolio company of DCVC. As a clinical-stage medical device developer, the company
+  does not currently publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/remedy-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- Robotics
+- Healthcare
+- Surgery
+- Endovascular
+- Autonomous Systems
+- Cardiovascular
+- Stroke
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/remedy-robotics-domain-security.yml
+- type: Website
+  url: https://www.remedyrobotics.com
 apis: []
 maintainers:
 - FN: Kin Lane
